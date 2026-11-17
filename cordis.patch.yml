@@ -1,0 +1,11 @@
+# dsh-goal-resume bundle patch：两行 Host 插件，一行工具、一行提示词。
+#
+# 为什么拆两行：工具与提示词都随模块进 ESM 缓存，改提示词不该顺带重装工具，
+# 也不该要求重启整台实例。子路径 `dsh-goal-resume/hint` 是独立模块，改完重装
+# 这一行就能换新内容；只想撤掉提示词时禁掉 goal-resume-hint 即可。
+- insert:
+    - id: goal-resume
+      name: dsh-goal-resume
+
+    - id: goal-resume-hint
+      name: dsh-goal-resume/hint

@@ -1,0 +1,39 @@
+{
+  "name": "dsh-goal-resume",
+  "version": "0.1.3",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "description": "Switch the current goal from a scheduled wake-up or an automatic goal round: resume a paused goal, pause it, or disarm automatic continuation.",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./hint": "./提示词 段落.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "提示词 段落.js",
+    "icon.svg",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "goal",
+    "schedule",
+    "deepseek-harness",
+    "agent-loop"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baldovinmarques391-design/dsh-goal-resume.git"
+  }
+}

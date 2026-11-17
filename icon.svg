@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="目标恢复">
+  <!-- No backing plate. The ring fills the canvas like the other badge icons
+       (outer edge 22.8), and the play head is the single accent: graphite goal,
+       blue "run again". The head tip keeps 3.4 units of clearance from the ring. -->
+  <circle cx="12" cy="12" r="10.2" fill="none" stroke="#54626f" stroke-width="2.2"/>
+  <path d="M9.9 7.9 16.9 12 9.9 16.1Z" fill="#3964FE" stroke="#3964FE" stroke-width="1.6" stroke-linejoin="round"/>
+</svg>
