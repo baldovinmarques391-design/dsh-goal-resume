@@ -1,0 +1,7 @@
+# dsh-goal-resume bundle patch: 一行 Host 插件，注册 goal_switch 工具。
+#
+# 它只碰 ctx.goals，不覆盖、不包裹任何既有包：内置的 update_goal / get_goal /
+# create_goal 原样保留，这里补的是“定时唤醒回合与自动续跑回合”里缺掉的那一半。
+- insert:
+    - id: goal-resume
+      name: dsh-goal-resume

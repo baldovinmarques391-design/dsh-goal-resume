@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Goal resume",
+    "description": "Resume a paused goal from a scheduled wake-up or an autonomous round; also pause or disarm it."
+  }
+}
